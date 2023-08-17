@@ -19,22 +19,22 @@
   "repository": "github:naddison36/sol2uml",
   "license": "MIT",
   "dependencies": {
-    "@solidity-parser/parser": "^0.13.2",
+    "@solidity-parser/parser": "^0.16.0",
     "axios": "^0.21.1",
-    "commander": "^8.1.0",
+    "commander": "^10.0.1",
     "debug": "^4.3.2",
     "js-graph-algorithms": "^1.0.18",
     "klaw": "^3.0.0",
     "svg-to-png": "^4.0.0",
     "verror": "^1.10.0",
-    "viz.js": "^1.8.2"
+    "viz.js": "^2.1.2"
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "@types/klaw": "^3.0.2",
     "@types/verror": "^1.10.5",
     "jest": "^27.0.6",
-    "openzeppelin-solidity": "2.5.1",
+    "openzeppelin-solidity": "4.8.1",
     "prettier": "^2.3.2",
     "ts-jest": "^27.0.4",
     "ts-node": "^10.9.1",

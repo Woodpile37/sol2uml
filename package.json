@@ -24,7 +24,7 @@
     "commander": "^10.0.1",
     "debug": "^4.3.2",
     "js-graph-algorithms": "^1.0.18",
-    "klaw": "^3.0.0",
+    "klaw": "^4.1.0",
     "svg-to-png": "^4.0.0",
     "verror": "^1.10.0",
     "viz.js": "^2.1.2"

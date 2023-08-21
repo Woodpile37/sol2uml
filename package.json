@@ -32,7 +32,7 @@
   "devDependencies": {
     "@types/jest": "^29.4.0",
     "@types/klaw": "^3.0.2",
-    "@types/verror": "^1.10.5",
+    "@types/verror": "^1.10.6",
     "jest": "^27.0.6",
     "openzeppelin-solidity": "2.5.1",
     "prettier": "^2.8.4",

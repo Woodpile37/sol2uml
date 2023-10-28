@@ -1,66 +1,66 @@
 {
-  "name": "sol2uml",
-  "version": "1.1.30",
-  "description": "Unified Modeling Language (UML) class diagram generator for Solidity contracts",
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
-  "scripts": {
-    "buildSol": "cd ./src/contracts && solc **/*.sol",
-    "build": "tsc --build ./tsconfig.json",
-    "clean": "tsc --build --clean ./tsconfig.json",
-    "prettier": "prettier --write \"src/**/*.ts\"",
-    "prettier:check": "prettier --check \"src/**/*.ts\"",
-    "test": "npx jest"
-  },
-  "preferGlobal": true,
-  "contributors": [
-    "Nick Addison"
-  ],
-  "repository": "github:naddison36/sol2uml",
-  "license": "MIT",
-  "dependencies": {
-    "@solidity-parser/parser": "^0.16.1",
-    "axios": "^1.6.0",
-    "commander": "^10.0.1",
-    "debug": "^4.3.4",
-    "js-graph-algorithms": "^1.0.18",
-    "klaw": "^4.1.0",
-    "svg-to-png": "^4.0.0",
-    "verror": "^1.10.1",
-    "viz.js": "^2.1.2"
-  },
-  "devDependencies": {
-    "@types/jest": "^29.4.0",
-    "@types/klaw": "^3.0.3",
-    "@types/verror": "^1.10.5",
-    "jest": "^29.6.2",
-    "openzeppelin-solidity": "2.5.1",
-    "prettier": "^3.0.1",
-    "ts-jest": "^27.0.4",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.1.6"
-  },
-  "files": [
-    "lib/*.js",
-    "lib/*.d.ts",
-    "sol2uml"
-  ],
-  "bin": {
-    "sol2uml": "lib/sol2uml.js"
-  },
-  "keywords": [
-    "Unified Modeling Language",
-    "UML",
-    "Solidity",
-    "Ethereum",
-    "Class diagram",
-    "Class",
-    "diagram",
-    "Contract",
-    "Interface",
-    "Relationship",
-    "SVG",
-    "Blockchain",
-    "Model"
-  ]
+    "name": "sol2uml",
+    "version": "1.1.30",
+    "description": "Unified Modeling Language (UML) class diagram generator for Solidity contracts",
+    "main": "./lib/index.js",
+    "types": "./lib/index.d.ts",
+    "scripts": {
+        "buildSol": "cd ./src/contracts && solc **/*.sol",
+        "build": "tsc --build ./tsconfig.json",
+        "clean": "tsc --build --clean ./tsconfig.json",
+        "prettier": "prettier --write \"src/**/*.ts\"",
+        "prettier:check": "prettier --check \"src/**/*.ts\"",
+        "test": "npx jest"
+    },
+    "preferGlobal": true,
+    "contributors": [
+        "Nick Addison"
+    ],
+    "repository": "github:naddison36/sol2uml",
+    "license": "MIT",
+    "dependencies": {
+        "@solidity-parser/parser": "^0.16.1",
+        "axios": "^1.6.0",
+        "commander": "^10.0.1",
+        "debug": "^4.3.4",
+        "js-graph-algorithms": "^1.0.18",
+        "klaw": "^4.1.0",
+        "svg-to-png": "^4.0.0",
+        "verror": "^1.10.1",
+        "viz.js": "^2.1.2"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.4.0",
+        "@types/klaw": "^3.0.3",
+        "@types/verror": "^1.10.5",
+        "jest": "^29.6.2",
+        "openzeppelin-solidity": "2.5.1",
+        "prettier": "^3.0.1",
+        "ts-jest": "^27.0.4",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.1.6"
+    },
+    "files": [
+        "lib/*.js",
+        "lib/*.d.ts",
+        "sol2uml"
+    ],
+    "bin": {
+        "sol2uml": "lib/sol2uml.js"
+    },
+    "keywords": [
+        "Unified Modeling Language",
+        "UML",
+        "Solidity",
+        "Ethereum",
+        "Class diagram",
+        "Class",
+        "diagram",
+        "Contract",
+        "Interface",
+        "Relationship",
+        "SVG",
+        "Blockchain",
+        "Model"
+    ]
 }
